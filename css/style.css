@@ -1,5 +1,6 @@
+
 .logoLink{
-	width: 200px;
+	width: 120px;
 	height: auto;
 }
 body {
@@ -115,7 +116,7 @@ h1.wthree-logo a {
 	text-transform: capitalize;
 	font-size: 0.3em;
 	font-weight: 200;
-	color: #25e0ff;
+	color: #182748;
 }
 
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top.top-nav-collapse {
@@ -125,7 +126,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top.top-nav-coll
 }
 
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top.top-nav-collapse h1.wthree-logo a {
-	color: #25e0ff;
+	color: #182748;
 	font-size: 0.4em;
 }
 
@@ -230,8 +231,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top.top-nav-coll
 }
 
 /* //banner */
-div#home {
-	background: rgb(253, 180, 150);
+
 }
 
 .bg-img {
@@ -243,7 +243,7 @@ div#home {
 
 h2.agile-title a {
 	font-size: 1em;
-	color: #25e0ff;
+	color: #182748;
 }
 
 h3.agile-title {
@@ -459,11 +459,11 @@ h3.w3ls-title {
 
 .agileits-about-grids span {
 	font-size: 3em;
-	color: #25e0ff;
+	color: #ff4c4c;
 }
 
 .about-grid-agileits.py-5 {
-	background: #25e0ff;
+	background: #182748;
 }
 
 .about-grid-agileits .card {
@@ -472,7 +472,7 @@ h3.w3ls-title {
 }
 
 .about-grid-agileits {
-	background: #25e0ff;
+	background: #182748;
 }
 
 .abt_card_btn {
@@ -549,7 +549,7 @@ span.about-line {
 	width: 100%;
 	display: block;
 	height: 3px;
-	background: #25e0ff;
+	background: #182748;
 	margin-top: 2em;
 }
 
@@ -564,7 +564,7 @@ span.about-line {
 
 span.num-list {
 	font-size: 2em;
-	color: #25e0ff;
+	color: #182748;
 }
 
 
@@ -730,7 +730,7 @@ h6.slide-head {
 }
 
 .row.no-gutters.testi-bg1 {
-	background: #25e0ff;
+	background: #182748;
 }
 
 .carousel-indicators {
@@ -829,7 +829,7 @@ h4.panel-title {
 	display: block;
 	padding: 15px 70px;
 	margin: 0;
-	background: #25e0ff;
+	background: #182748;
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -887,7 +887,7 @@ h4.panel-title {
 .map iframe {
 	width: 100%;
 	min-height: 500px;
-	border: 5px solid #25e0ff;
+	border: 5px solid #182748;
 	display: block;
 }
 
@@ -909,7 +909,7 @@ button.btn.btn-primary.btn-block {
 }
 
 .address h5 {
-	color: #25e0ff;
+	color: #182748;
 	text-transform: capitalize;
 	font-size: 1.1em;
 }
@@ -946,7 +946,7 @@ form.f-color .form-control {
 
 legend {
 	width: 50%;
-	background: #25e0ff;
+	background: #182748;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 1.4em;
@@ -956,18 +956,18 @@ legend {
 
 fieldset.contact-top1 {
 	padding: 1rem 2rem 3rem;
-	border: 1px solid #25e0ff;
+	border: 1px solid #182748;
 }
 
 .fv3-contact span {
-	color: #25e0ff;
+	color: #182748;
 }
 
 /*--//contact--*/
 /* footer */
 
 .cpy-right {
-	background: #25e0ff;
+	background: #182748;
 }
 
 .fv3-contact p {
@@ -1009,7 +1009,7 @@ fieldset.contact-top1 {
 	cursor: pointer;
 }
 .subscribe-grid button.btn1 i{
-	color: #25e0ff;
+	color: #182748;
 }
 footer {
 	background: #141820;
@@ -1820,7 +1820,7 @@ li > a:only-child:after {
         border: none;
         float: right;
         background-color: transparent;
-        color: #333;
+        color: #fff;
         cursor: pointer;
         text-transform: uppercase;
     }
@@ -1931,11 +1931,11 @@ li > a:only-child:after {
 }
 
 /* header */
+/*-- place holder --*/
 
 /*--/banner --*/
 
 .main-banner {
-    background: url(../images/banner.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1946,7 +1946,6 @@ li > a:only-child:after {
 }
 
 .main-banner.inner {
-    background: url(../images/banner.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1956,85 +1955,10 @@ li > a:only-child:after {
     height: 20em;
 }
 
-/*-- place holder --*/
 
-.banner-form ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #ccc;
-}
 
-.banner-form ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #ccc;
-}
 
-.banner-form :-ms-input-placeholder {
-    /* IE 10+ */
-    color: #ccc;
-}
 
-.banner-form :-moz-placeholder {
-    /* Firefox 18- */
-    color: #ccc;
-}
-
-.banner-info {
-    padding: 16em 0 0em 3em;
-    width: 32%;
-}
-
-.banner-info h3 {
-    font-size: 3.5em;
-    letter-spacing: 2px;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-}
-
-.banner-info p {
-    color: #fff;
-    font-size: 0.8em;
-    letter-spacing: 2px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
-    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-}
-.ban-buttons a {
-    background: #fff;
-    padding: 11px 31px;
-    font-size: 13px;
-    letter-spacing: 1px;
-    color: #ff4c4c;
-    border-radius: 0px;
-    display: inline-block;
-    box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    -webkit-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    -o-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    -moz-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    -ms-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    border: #fff;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.ban-buttons a.active,
-.ban-buttons a:hover {
-    opacity: 0.8;
-}
-
-a.btn.active {
-    background: #10adfb;
-    color: #fff;
-    border: #10adfb;
-}
-
-/*-- //place holder --*/
 
 /*-- //banner --*/
 
@@ -2105,7 +2029,15 @@ ul.events-icons.new-inf img {
 }
 
 .bottom-gd2-active {
-    background: #ff4c4c;
+    background: #f8c022;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+.bottom-gd2-activee {
+    background: #182748;
     transition: 2s all;
     -webkit-transition: 2s all;
     -moz-transition: 2s all;
@@ -2770,7 +2702,7 @@ a.move-top span {
         letter-spacing: 2px;
     }
     .main-banner {
-        height: 38em;
+        height: 30em;
     }
     h3.tittle {
         font-size: 2em;
@@ -2821,7 +2753,7 @@ a.move-top span {
     }
     div#products .item {
         float: left;
-        width: 50%;
+        width: 30%;
         margin-top: 1em;
     }
     .left-ads-display {
@@ -2953,7 +2885,7 @@ a.move-top span {
 
 @media(max-width:480px) {
     .main-banner {
-        height: 25em;
+        height: 15em;
     }
     .banner-info {
         padding: 9em 0 0em 1em;
@@ -2978,7 +2910,7 @@ a.move-top span {
         width: 68%;
     }
     .main-banner {
-        height: 23em;
+        height: 10em;
     }
     .item-info-product h4 a {
         font-size: 14px;
